@@ -1,0 +1,7 @@
+CorrelationId: 52726ef5-c63b-4437-b5db-8fd26ac97b25
+UTC DateTime: 07/03/2026 11:00:05
+
+The following files/folders have not been downloaded
+0. Cwiczenia/02-credit-card-monitor/credit-card-monitor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+1. Cwiczenia/02-credit-card-monitor/credit-card-monitor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+2. Cwiczenia/05-commit-too-late/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst

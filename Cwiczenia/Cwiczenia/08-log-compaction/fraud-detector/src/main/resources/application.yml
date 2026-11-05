@@ -1,0 +1,6 @@
+server:
+  port: 9022
+
+kafka:
+  url: localhost:9092
+  credit-card-trn-topic: credit-card-trn

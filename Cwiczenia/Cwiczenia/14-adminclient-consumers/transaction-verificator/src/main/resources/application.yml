@@ -1,0 +1,8 @@
+server:
+  port: 9025
+kafka:
+  url: localhost:9092
+  online-payment-topic: online-payment
+  credit-card-trn-topic: credit-card-trn
+  trn-to-verification-topic: trn-to-verification
+

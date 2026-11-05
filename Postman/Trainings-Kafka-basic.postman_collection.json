@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "0db24668-630a-4d16-9195-40c293e5fa44",
+		"name": "Trainings-Kafka-basic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9599315"
+	},
+	"item": [
+		{
+			"name": "Credit-card-monitor",
+			"item": [
+				{
+					"name": "Process credit card trn",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"clientId\": 1,\n    \"value\": 2007.1,\n    \"city\": \"Krakow\",\n    \"companyName\" : \"Januszex Sp. z o. o.\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9021/credit-card-trn",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9021",
+							"path": [
+								"credit-card-trn"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Online-payment-monitor",
+			"item": [
+				{
+					"name": "Process online payment",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"clientId\": 5,\n    \"value\": 27.1,\n    \"type\": \"BLIK\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:9023/online-payment",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9023",
+							"path": [
+								"online-payment"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+    "clientId": "1",
+    "value": "10",
+    "city": "Krakow",
+    "companyName": "%s"
+}
