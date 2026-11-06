@@ -1,0 +1,5 @@
+server:
+  port: 9023
+kafka:
+  url: localhost:9092
+  online-payment-topic: online-payment
